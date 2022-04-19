@@ -4,9 +4,11 @@ import About from '../About/About.jsx'
 import Pohoto from "../Pohoto/Pohoto.jsx";
 import Gallery from "../Gallery/Gallery.jsx";
 import Groups from "../Groups/Groups.jsx";
+import ResponsiveAppBar from '../ResponsiveAppBar/ResponsiveAppBar.jsx';
 const Routers = () => {
     return (
       <div>
+        <ResponsiveAppBar></ResponsiveAppBar>
         <Routes>
           <Route path="/" index element={<Pohoto />} />
           <Route path="/gellerus" element={<Gallery />} />

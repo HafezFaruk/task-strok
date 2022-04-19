@@ -32,9 +32,8 @@ const Gallery = () => {
      
     ];
   return (
-      <div>
-         
-      <ImageList  cols={3} >
+    <div>
+      <ImageList  cols={3}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img

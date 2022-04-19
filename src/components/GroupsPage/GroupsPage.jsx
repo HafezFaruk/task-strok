@@ -1,14 +1,14 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 
-const Pohoto = () => {
+const GroupsPage = () => {
     return (
-      <div>
+      <>
         <Typography sx={{ textAlign: "center" }} variant="h1" component="h1">
-          Pohoto
+          Groups
         </Typography>
-      </div>
+      </>
     );
 };
 
-export default Pohoto;
+export default GroupsPage;
