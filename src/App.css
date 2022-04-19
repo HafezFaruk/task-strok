@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.bg-banner{
+  background-image: url(../src/images/banner1.webp);
+  background-size: cover;
+  background-position: center center;
+  height: 30rem;
+}
+.userImage{
+  height: 100px;
+  width: 100px;
+}
